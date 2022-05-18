@@ -8,10 +8,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+  border: 3px solid black;
+  border-radius: 10px;
 }
-
-
 
 .para {
     margin-left: 400px;
@@ -27,7 +26,7 @@ h2 {
 }
 
 .moly {
-    margin-left: 350px;
+    margin-left: 550px;
 }
 
 body {
