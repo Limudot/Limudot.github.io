@@ -12,9 +12,12 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link rel="stylesheet" href="Science.css" />
     <script>
-      $(function () {
-        $("#sidebar").load("Sidebar/sidebar.html");
-      });
+    $( "#sidebar" ).load( "../Sidebar/sidebar.html", function( response, status, xhr ) {
+      if ( status == "error" ) {
+        var msg = "Sorry but there was an error: ";
+        $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+      }
+    });
     </script>
     <title>מדעים</title>
   </head>
