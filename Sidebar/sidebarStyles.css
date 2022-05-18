@@ -23,7 +23,7 @@ p {
 .white-thingy {
   height: 200%;
   position: relative;
-  background: rgb(3, 186, 252);
+  background: gray;
   top: -100%;
   width: 2px;
   left: 225px;
