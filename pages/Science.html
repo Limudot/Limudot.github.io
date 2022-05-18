@@ -4,24 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Science.css" />
     <link rel="stylesheet" href="../Sidebar/sidebarStyles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script
       src="https://kit.fontawesome.com/b73366797a.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <link rel="stylesheet" href="Science.css" />
     <script>
-    $( "#sidebar" ).load( "../Sidebar/sidebar.html", function( response, status, xhr ) {
-      if ( status == "error" ) {
-        var msg = "Sorry but there was an error: ";
-        $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
-      }
-    });
+      $(function () {
+        $("#sidebar").load("../Sidebar/sidebar.html");
+      });
     </script>
     <title>מדעים</title>
   </head>
   <body>
+    <div id="sidebar"></div>
     <h1>מדעים</h1>
     <p class="para">בעמוד הזה נמצאים כל הסיכומים במדעים</p>
     <div class="border">
