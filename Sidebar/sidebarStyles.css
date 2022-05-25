@@ -175,7 +175,7 @@ hr {
 
   pointer-events: none;
   position: fixed;
-  transform: translateY(-340px);
+  transform: translateY(-140px);
   opacity: 0;
   left: 20px;
 }
@@ -215,7 +215,7 @@ hr {
 
   pointer-events: none;
   position: fixed;
-  transform: translateY(-420px);
+  transform: translateY(-220px);
   opacity: 0;
   left: 20px;
 }
