@@ -171,12 +171,11 @@ hr {
 .extended-ivrit {
   transition: 0.2s;
   background: darkgray;
-
   width: 300px;
 
   pointer-events: none;
   position: fixed;
-  transform: translateY(-240px);
+  transform: translateY(-340px);
   opacity: 0;
   left: 20px;
 }
@@ -212,12 +211,11 @@ hr {
 .extended-math {
   transition: 0.2s;
   background: darkgray;
-
   width: 300px;
 
   pointer-events: none;
   position: fixed;
-  transform: translateY(-320px);
+  transform: translateY(-420px);
   opacity: 0;
   left: 20px;
 }
